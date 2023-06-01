@@ -1,0 +1,1 @@
+.header{position:sticky;top:0;z-index:50;width:100%;margin-bottom:2%}.header__nav{height:80px;width:100%;background-color:#f2f8fd;display:flex;justify-content:space-around;align-items:center;border-bottom:1px solid #5d5c5c}.header__logo img{width:170px}.header__link{font-family:"Balsamiq Sans",cursive;font-size:18px;color:#5d5c5c}.header__link:hover{color:#ed3338}

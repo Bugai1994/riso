@@ -1,0 +1,60 @@
+.menu {
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 250px;
+        height: 350px;
+        border-radius: 30px;
+        box-shadow: 3px 1px 20px -11px rgb(45, 47, 47);
+        margin-bottom: 30px;
+
+    }
+    &__name {
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 16px;
+        color: rgb(93, 92, 92);
+        text-align: center;
+        padding-left: 10px;
+    }
+    &__descr {
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 14px;
+        color: rgb(27, 25, 25);
+        padding-left: 10px;
+    }
+    &__img {
+        width: 100%;
+        border-radius: 30px;
+    }
+    &__sell {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__btn {
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #ED3338;
+        border: none;
+        cursor: pointer;
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 18px;
+        color: rgb(48, 45, 45);
+        
+    }
+    &__price {
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 26px;
+        color: rgb(23, 22, 22);
+    }
+}
+.title {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 48px;
+    color: rgb(93, 92, 92);
+}
+

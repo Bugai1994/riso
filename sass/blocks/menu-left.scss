@@ -1,0 +1,42 @@
+.menu-left {
+    position: fixed;
+    height: 80%;
+    z-index: 1;
+    width: 100px;
+    left: 0;
+    background-color: #f2f8fd;
+    box-shadow: 3px 1px 20px -11px rgb(45, 47, 47);
+    border-radius: 30px;
+    max-height: calc(100vh - 56px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__item {
+        margin-top: 10%;
+    }
+    &__left {
+        margin-left: 15px;
+    }
+    &__img-red {
+        display: none;
+    }
+    &__descr {
+        font-family: 'Balsamiq Sans', cursive;
+        padding: 0;
+        margin: 0;
+        color: rgb(45, 47, 47);
+        text-align: center;
+        &:hover {
+            color: #ED3338;
+        }
+    }
+
+}
+.menu-left::-webkit-scrollbar { 
+    width: 0; 
+}

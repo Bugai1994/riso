@@ -1,0 +1,32 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    margin-bottom: 2%;
+    &__nav {
+        height: 80px;
+        width: 100%;
+        background-color: #f2f8fd;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid rgb(93, 92, 92);
+        
+    }
+    &__logo {
+        img{
+            width: 170px;
+
+        }
+    }
+    &__link {
+        font-family: 'Balsamiq Sans', cursive;
+        font-size: 18px;
+        color: rgb(93, 92, 92);
+        &:hover {
+            color: #ED3338;
+        }
+    }
+}
+

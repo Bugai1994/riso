@@ -1,0 +1,17 @@
+.bascet {
+    position: fixed;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: #f2f8fd;
+    right: 0;
+    box-shadow: 3px 1px 20px -11px rgb(45, 47, 47);
+    &__item {
+        text-align: center;
+        font-family: 'Balsamiq Sans', cursive;
+        color: rgb(45, 47, 47);
+    }
+    &__img {
+        margin-top: 10px;
+    }
+}
