@@ -6,7 +6,7 @@
     background-color: #f2f8fd;
     right: 0;
     box-shadow: 3px 1px 20px -11px rgb(45, 47, 47);
-    &__item {
+    &__descr {
         text-align: center;
         font-family: 'Balsamiq Sans', cursive;
         color: rgb(45, 47, 47);
@@ -14,4 +14,12 @@
     &__img {
         margin-top: 10px;
     }
+}
+
+.not-btn {
+    display: none;
+}
+
+.descr-not {
+    display: none;
 }

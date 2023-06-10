@@ -26,3 +26,21 @@ const swiper = new Swiper('.swiper', {
   //   invert: false,
   // },
 });
+
+
+const elemment = document.querySelectorAll('.menu__btn')
+const bascet = document.querySelector('.bascet__descr')
+const carusel = document.querySelector('.swiper')
+const menu = document.querySelector('.menu-left__item')
+
+
+menu.addEventListener('click', () => {
+  carusel.classList.add('delete')
+})
+
+elemment.forEach(item => {
+  item.addEventListener('click', function () {
+    bascet.classList.add('descr-not')
+  })
+  
+})
